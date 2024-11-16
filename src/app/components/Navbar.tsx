@@ -12,16 +12,12 @@ export default function Navbar() {
     <div>
       <nav className="flex justify-between lg:justify-around items-center h-20 bg-indigo-950 px-4">
         <h1 className="text-white text-3xl font-serif">Asad's Portfolio</h1>
-
-        {/* Menu Button */}
         <button
           className="lg:hidden text-white text-3xl focus:outline-none"
           onClick={toggleMenu}
         >
           ☰
         </button>
-
-        {/* Menu Items */}
         <ul
           className={`${
             isMenuOpen ? "block" : "hidden"
