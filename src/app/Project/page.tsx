@@ -1,5 +1,3 @@
-import { link } from "node:fs";
-
 export default function Project() {
   return (
     <div className="m-28">
