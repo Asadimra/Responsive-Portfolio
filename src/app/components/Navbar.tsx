@@ -1,4 +1,4 @@
-"use client"
+'use client'
 import { useState } from "react";
 
 export default function Navbar() {
@@ -44,70 +44,3 @@ export default function Navbar() {
     </div>
   );
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// export default function Navbar() {
-  
-  
-//   return (
-//     <div>
-//       <nav className="flex justify-around items-center h-20 bg-indigo-950  ">
-//         <h1 className="text-white text-3xl font-serif">Asad's Portfolio</h1>
-       
-    
-       
-//         <ul className="hidden lg:flex justify-end font-serif text-xl ">
-//           <li className="list-none px-4 text-white hover:text-purple-300">
-//             <a href="/Home">Home</a>
-//           </li>
-//           <li className="list-none px-4 text-white hover:text-purple-300">
-//             <a href="/Skills">About</a>
-//           </li>
-//           <li className="list-none px-4 text-white hover:text-purple-300">
-//           <a href="/Contact">Contact Me</a>
-//           </li>
-//           <li className="list-none px-4 text-white hover:text-purple-300">
-//           <a href="/Project">Project</a>
-//           </li>
-//         </ul>
-//       </nav>
-//     </div>
-//   );
-// }
