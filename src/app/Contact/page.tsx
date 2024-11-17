@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <div className="flex flex-col lg:flex-row">
       <div className="w-full lg:w-6/12">
-        <h1 className=" font-semibold text-3xl mx-20 my-10 lg:text-6xl lg:mt-16 lg:mx-52 ">Contact us</h1>
+        <h1 className=" font-semibold text-3xl mx-20 my-10 lg:text-5xl lg:mt-16 lg:text-center ">Contact us</h1>
         <form className="mt-1 flex gap-10 justify-center items-center flex-col  ">
           <input
             type="name"
