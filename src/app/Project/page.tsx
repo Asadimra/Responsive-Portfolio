@@ -5,7 +5,7 @@ export default function Project() {
       <div className="flex   ">
         <img className=" w-5/12 " src="/StaticResume.png" alt="" />
 
-        <div className=" mx-24 my-auto text-3xl ">
+        <div className=" mx-7 my-6 text-3xl ">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
             veniam, porro iure doloribus tenetur libero pariatur animi sequi
@@ -27,9 +27,9 @@ export default function Project() {
 
       <h1 className="my-16 text-center text-4xl">Car Selling Website</h1>
       <div className="flex  ">
-        <img className="w-2/5 " src="/CarSellingWebsite.png" alt="" />
+        <img className="w-6/12 " src="/CarSellingWebsite.png" alt="" />
 
-        <div className=" mx-24 my-auto text-3xl">
+        <div className=" mx-7 my-6 text-3xl">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
             veniam, porro iure doloribus tenetur libero pariatur animi sequi
@@ -49,9 +49,9 @@ export default function Project() {
         Responsive Governer Website
       </h1>
       <div className="flex  ">
-        <img className="w-2/5 " src="/ResponsiveGovernerWebsite.png" alt="" />
+        <img className="w-6/12 " src="/ResponsiveGovernerWebsite.png" alt="" />
 
-        <div className=" mx-24 my-auto text-3xl">
+        <div className=" mx-7 my-6 text-3xl">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
             veniam, porro iure doloribus tenetur libero pariatur animi sequi

@@ -1,29 +1,29 @@
 export default function Skills() {
   return (
     <div className="bg-cyan-900  ">
-      <section className="w-full lg:w-10/12 lg:mx-10  lg:p-7 ">
+      <section className="w-full lg:w-11/12 lg:mx-10  lg:p-7 ">
         <h1 className="text-gray-300 text-center lg:text-left text-2xl lg:text-3xl ">
           What I have learn so far
         </h1>
         <h1 className="text-white text-center lg:text-left text-4xl font-medium mb-16 my-8  lg:ml-20">
           Skills
         </h1>
-        <hr className="hidden lg:block bg-white  mt-20 " />
+        <hr className="w-full hidden lg:block bg-white  mt-20 " />
 
         <div className="w-full flex flex-col lg:flex-row  ">
-          <div className="w-full lg:w-64 ">
-            <hr className="h-56 w-1 ml-40 md:ml-96 lg:ml-20 bg-white  " />
+          <div className="w-full lg:w-64 px-2 ">
+            <hr className="h-56 w-1 ml-40 md:ml-96 lg:ml-12 bg-white  " />
 
             <img
-              className="h-8 w-8 -mt-64 ml-36 md:ml-96  lg:ml-16"
+              className="h-8 w-8 -mt-64 ml-36 md:ml-96  lg:ml-10"
               src="/logo.webp"
               alt=""
             />
-            <h1 className=" text-white text-xl text-center font-bold mt-60 mb-6 mx-16  lg:mt-60 lg:ml-16 lg:mb-5">
+            <h1 className=" text-white text-xl text-center font-bold mt-60 mb-6 mx-16  lg:mt-60 lg:ml-2 lg:mb-5">
               HTML/CSS
             </h1>
 
-            <p className="w-full p-2 lg:w-52 text-gray-400 text-xl mb-10 lg:ml-16 hyphens-auto  ">
+            <p className="w-full p-2 lg:w-52 text-gray-400 text-xl mb-10  hyphens-auto  ">
               I have a strong foundation in HTML and CSS, allowing me to craft
               clean, responsive, and visually appealing web designs. I excel in
               implementing layouts that are mobile-friendly and compatible
@@ -34,17 +34,17 @@ export default function Skills() {
             </p>
           </div>
           <div className="w-full lg:w-64">
-            <hr className="h-56 w-1 ml-40 md:ml-96 lg:ml-20 bg-white  " />
+            <hr className="h-56 w-1 ml-40 md:ml-96 lg:ml-12 bg-white  " />
             <img
-              className="h-8 w-8 -mt-64 ml-36 md:ml-96  lg:ml-16"
+              className="h-8 w-8 -mt-64 ml-36 md:ml-96  lg:ml-10"
               src="/logo.webp"
               alt=""
             />
-            <h1 className=" text-white text-xl text-center font-bold mt-60 mb-6 mx-16  lg:mt-60 lg:ml-16 lg:mb-5">
+            <h1 className=" text-white text-xl text-center font-bold mt-60 mb-6 mx-16  lg:mt-60 lg:-ml-4 lg:mb-5">
               Next.js
             </h1>
 
-            <p className="w-full p-2 lg:w-52 text-gray-400 text-xl mb-10 lg:ml-16 hyphens-auto ">
+            <p className="w-full p-2 lg:w-52 text-gray-400 text-xl mb-10  hyphens-auto ">
               With expertise in Next.js, I build modern web applications that
               prioritize performance and scalability. I am experienced in
               leveraging server-side rendering (SSR) and static site generation
@@ -55,17 +55,17 @@ export default function Skills() {
             </p>
           </div>
           <div className="w-full lg:w-64">
-            <hr className="h-56 w-1 ml-40 md:ml-96 lg:ml-20 bg-white  " />
+            <hr className="h-56 w-1 ml-40 md:ml-96 lg:ml-12 bg-white  " />
             <img
-              className="h-8 w-8 -mt-64 ml-36 md:ml-96  lg:ml-16"
+              className="h-8 w-8 -mt-64 ml-36 md:ml-96  lg:ml-10"
               src="/logo.webp"
               alt=""
             />
-            <h1 className=" text-white text-xl text-center font-bold mt-60 mb-6 mx-16  lg:mt-60 lg:ml-16 lg:mb-5">
+            <h1 className=" text-white text-xl text-center font-bold mt-60 mb-6 mx-16  lg:mt-60  lg:-ml-1  lg:mb-5">
               Java/C++
             </h1>
 
-            <p className="w-full p-2 lg:w-52 text-gray-400 text-xl mb-10 lg:ml-16 hyphens-auto ">
+            <p className="w-full p-2 lg:w-52 text-gray-400 text-xl mb-10  hyphens-auto ">
               I am proficient in Java and C++, using these languages to solve
               complex problems and build efficient applications. My knowledge
               covers object-oriented programming (OOP), data structures, and
@@ -76,17 +76,17 @@ export default function Skills() {
             </p>
           </div>
           <div className="w-full lg:w-64">
-            <hr className="h-56 w-1 ml-40 md:ml-96 lg:ml-20 bg-white  " />
+            <hr className="h-56 w-1 ml-40 md:ml-96 lg:ml-12 bg-white  " />
             <img
-              className="h-8 w-8 -mt-64 ml-36 md:ml-96  lg:ml-16"
+              className="h-8 w-8 -mt-64 ml-36 md:ml-96  lg:ml-10"
               src="/logo.webp"
               alt=""
             />
-            <h1 className=" text-white text-xl text-center font-bold mt-60 mb-6 mx-16  lg:mt-60 lg:ml-16 lg:mb-5">
+            <h1 className=" text-white text-xl text-center font-bold mt-60 mb-6  lg:-ml-8 lg:mt-60  lg:mb-5">
               Web Developer
             </h1>
 
-            <p className="w-full p-2 lg:w-52 text-gray-400 text-xl mb-10 lg:ml-16 hyphens-auto">
+            <p className="w-full p-2 lg:w-52 text-gray-400 text-xl mb-10   hyphens-auto">
               As a passionate web developer, I specialize in crafting
               user-centric and innovative digital experiences. My expertise
               spans front-end and back-end development, ensuring a holistic
@@ -96,18 +96,18 @@ export default function Skills() {
               functional but also impactful and engaging for users.
             </p>
           </div>
-          <div className="w-full lg:w-64">
-            <hr className="h-56 w-1 ml-40 md:ml-96 lg:ml-20 bg-white   " />
+          <div className="w-full lg:w-64 px-2">
+            <hr className="h-56 w-1 ml-40 md:ml-96 lg:ml-12 bg-white   " />
             <img
-              className="h-8 w-8 -mt-64 ml-36 md:ml-96  lg:ml-16"
+              className="h-8 w-8 -mt-64 ml-36 md:ml-96  lg:ml-10"
               src="/logo.webp"
               alt=""
             />
-            <h1 className=" text-white text-xl text-center font-bold mt-60 mb-6 mx-16  lg:mt-60 lg:ml-16 lg:mb-5">
+            <h1 className=" text-white text-xl text-center font-bold mt-60 mb-6 ml-10 lg:-ml-10  lg:mt-60  lg:mb-5">
               Web Designer
             </h1>
 
-            <p className="w-full p-2 lg:w-52 text-gray-400 text-xl mb-10 lg:ml-16 hyphens-auto">
+            <p className="w-full p-2 lg:w-52 text-gray-400 text-xl mb-10  hyphens-auto">
               I specialize in designing intuitive and visually appealing user
               interfaces using Figma. My expertise includes creating wireframes,
               prototypes, and high-fidelity designs that bring ideas to life. I
